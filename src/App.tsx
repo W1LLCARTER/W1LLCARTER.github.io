@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
-import { Hero } from './components/Hero';
-import { About } from './components/About';
-import { Education } from './components/Education';
-import { Projects } from './components/Projects';
-import { Skills } from './components/Skills';
-import { Music } from './components/Music';
-import { Inspirations } from './components/Inspirations';
-import { Contact } from './components/Contact';
-import { ThemeToggle } from './components/ThemeToggle';
-import { CodeRain } from './components/CodeRain';
+import { Hero } from './components/Hero.js';
+import { About } from './components/About.js';
+import { Education } from './components/Education.js';
+import { Projects } from './components/Projects.js';
+import { Skills } from './components/Skills.js';
+import { Music } from './components/Music.js';
+import { Inspirations } from './components/Inspirations.js';
+import { Contact } from './components/Contact.js';
+import { ThemeToggle } from './components/ThemeToggle.js';
+import { CodeRain } from './components/CodeRain.js';
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(true);
